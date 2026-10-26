@@ -64,7 +64,6 @@
 <script>  
     function checkPassword() {  
         const pass = document.getElementById('passcode').value;  
-        // كلمة السر الافتراضية هي love، يمكنك تغييرها لاحقاً  
         if (pass.toLowerCase() === 'love') {  
             document.getElementById('lock-screen').classList.add('hidden');  
             document.getElementById('message-screen').classList.remove('hidden');  
@@ -76,4 +75,3 @@
   
 </body>  
 </html>  
-- [ ]   
